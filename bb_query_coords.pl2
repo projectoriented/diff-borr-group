@@ -1,0 +1,48 @@
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+use DBI;
+use Data::Dumper;
+
+my (@cdhit_id, @strain, %annot, %master);
+while (<>) {
+    chomp;
+    my @fields = split /\t/, $_;
+    push @cdhit_id, $fields[0];
+}
+
+
+my $dbh = DBI->connect("dbi:Pg:dbname=bb3-dev;host=Borreliabase.org","","") or die "Couldn't connect to database: ", DBI->errstr;
+
+my $sth = $dbh->prepare("select v.cdhit_id, v.locus, v.strain, v.start, v.stop, a.anno_text from vorf3 as v full join fam_annot as a on v.cdhit_id = a.cdhit_id where v.cdhit_id = ? and v.group_id = 1 limit 1 ");
+
+my $queryStrains = $dbh->prepare("select distinct(strain) from vorf3 order by strain");
+
+my $sth1 = $dbh->prepare("select locus, strain, genome_id, cdhit_id, start, stop, (case when strand = 't' then 1 else -1 end) as strand from vorf3 where group_id = 1 and strain = ? order by start");
+
+$queryStrains->execute();
+while (my @data = $queryStrains->fetchrow()){
+    push @strain, $data[0];
+}
+
+$queryStrains->finish();
+
+print "strain\tlocus\tgenome_id\tstart\tend\tcdhit_id\tstrand\n";
+foreach my $i (0 .. $#strain) {
+    $sth1->execute($strain[$i]);
+    while (my @data = $sth1->fetchrow()){
+#       	print join "\t", $data[1],$data[0],$data[2],$data[4],$data[5],($data[3] ? $data[3] : "N/A"),$data[6];
+#	print "\n";
+#	$master{$strain[$i]}{$data[2]} = {cdhit_id => [], start => [], end => [], strand => []};
+#	push @{$master{$strain[$i]}{$data[2]}{start}}, $data[4];
+#	$annot{$cdhit_id[$i]} = $data[5] ? $data[5] : "N/A";
+    }
+    
+}
+
+$sth1->finish();
+
+#print Dumper \%master;
+$dbh->disconnect();
+

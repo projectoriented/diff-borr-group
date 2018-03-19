@@ -1,0 +1,98 @@
+cdhit_id	locus	lyme	rf	start	stop	anno
+1000	BbuJD1_0901	1	0	910363	910878	N/A
+1007	BbuJD1_0903	1	0	911692	912279	Prokaryotic membrane lipoprotein lipid attachment site profile.
+1034	BbuJD1_0912	2	0	922340	922801	N/A
+1067	BbiDN127_0429	34	0	445151	445699	EIIB_glc: PTS system, glucose-like IIB component || Phosphotransferase system, IIB component, type 1
+1085	BbuJD1_0576	34	0	589396	589920	N/A
+1120	BVAVS116_0875	1	0	911403	911570	N/A
+1130	X921_02270	32	0	484649	485068	N/A
+1263	BBUBOL26_0364	34	0	201670	202050	N/A
+128	BVAVS116_0873	1	0	909711	910133	PP-loop family || tRNA(Ile)-lysidine/2-thiocytidine synthase
+13	BbuJD1_0905	1	0	914633	918361	Borrelia burgdorferi protein of unknown function (DUF792) || Protein of unknown function DUF792, Borrelia species
+1345	BafHLJ01_0696	27	0	664437	664754	Borrelia membrane protein P13 || Borrelia membrane P13
+1356	Bbu156a_0002	1	0	581	769	Putative plasmid partition protein || Plasmid partition protein
+1392	Bbu156a_0005	2	0	3722	4009	N/A
+1397	BBU94A_0230	22	0	8987	9271	IMP_dehydrog: inosine-5'-monophosphate dehydrogenase || Inosine-5'-monophosphate dehydrogenase
+1583	BBU118A_0877	3	0	1969	2166	N/A
+167	BVAVS116_0867	1	0	905869	906843	NAD-dependent glycerol-3-phosphate dehydrogenase N-terminus || Glycerol-3-phosphate dehydrogenase, NAD-dependent, N-terminal
+1836	BGAPBR_0636	25	0	203032	203184	Borrelia ORF-A || Borrelia plasmid, OrfA
+275	BB_0637	34	0	674995	676338	Uncharacterized protein family UPF0029 || Impact, N-terminal
+3	BBU72A_0874	5	0	1909	2166	Terminase-like family || Terminase, large subunit
+353	BbuZS7_0879	10	0	904409	905593	Metallopeptidase family M24 || Peptidase M24, structural domain
+384	L144_00130	34	0	22819	23958	MatE || Multi antimicrobial extrusion protein
+490	Bbu156a_0003	2	0	915	1799	Phosphoribosyl transferase domain || Phosphoribosyltransferase domain
+5005	BbuN40_0223	16	0	227376	227729	N/A
+5007	BGAPBR_0384	33	0	239176	240201	N/A
+5033	A7X70_00710	2	0	145418	145606	N/A
+5040	A7X70_01110	2	0	229377	229730	N/A
+5049	Bmayo_01115	2	0	229708	229977	N/A
+5050	Bmayo_00685	2	0	139095	139325	N/A
+519	BVAVS116_0872	1	0	909439	909621	Flagellar basal body rod FlgEFG protein C-terminal || Flagellar basal-body/hook protein, C-terminal domain
+547	BBU94A_0866	12	0	5524	6495	RF-1 domain || Peptide chain release factor class I/class II
+561	BB_0524	28	0	534264	535118	N/A
+568	BBUWI9123_0569	34	0	96945	97892	Ribosomal protein S2 || Ribosomal protein S2
+590	BbuJD1_0900	1	0	910109	910324	N/A
+598	BbuJD1_0908	2	0	919002	919856	LysM domain || LysM domain
+621	A7X70_00005	2	0	222	1121	S21p: ribosomal protein S21 || Ribosomal protein S21
+632	P613_RS04250	2	0	905823	906527	N/A
+7	BBU118A_0874	2	0	4001	4207	Protein of unknown function (DUF685) || Protein of unknown function DUF685
+712	BBUCA8_00765	34	0	158426	159142	CDP-alcohol phosphatidyltransferase || CDP-alcohol phosphatidyltransferase
+733	BG0601	34	0	609072	609866	Ribosome-binding factor A || Ribosome-binding factor A
+830	A7X70_00255	35	0	49018	49707	C4-dicarboxylate anaerobic carrier || C4-dicarboxylate anaerobic carrier-like
+876	A7X70_00780	34	0	160540	161214	holin_BlyA: holin, BlyA family || Holin, BlyA
+882	BVAVS116_0870	2	0	908527	908742	N/A
+889	BafPKo_0405	34	0	416603	417280	N/A
+902	Bbu156a_0503	34	0	520358	521020	KID repeat || KID repeat
+921	BSV1_0470	32	0	470474	471079	Borrelia burgdorferi virulent strain associated lipoprotein || Virulent strain associated Borrelia lipoprotein
+959	OY14_01995	34	0	415566	416177	Right handed beta helix region
+964	OY14_02000	34	0	416188	416799	N/A
+97	KK9_0632	34	0	635069	637045	KH domain || K Homology domain, type 1
+974	OY14_02790	35	0	574180	574764	N/A
+975	BBU118A_0871	3	0	5154	5759	N/A
+986	BVAVS116_0757	34	0	782735	783331	PCRF domain || Peptide chain release factor
+999	L144_01790	34	0	373576	374160	Borrelia ORF-A || Borrelia plasmid, OrfA
+68	Q7M_3	0	1	692	982	TPR repeat region circular profile. || Tetratricopeptide repeat-containing domain
+1220	Q7M_847	0	2	890021	890434	N/A
+360	Q7M_848	0	2	890474	891607	FAD dependent oxidoreductase || FAD dependent oxidoreductase
+398	BRE_3	0	2	2174	3295	Aminotransferase class-V || Aminotransferase class V domain
+430	BDU_3	0	2	3342	4421	lgt: prolipoprotein diacylglyceryl transferase || Prolipoprotein diacylglyceryl transferase
+1380	BHW_RS02105	0	3	450285	450476	N/A
+251	Q7M_865	0	3	917156	918478	Inhibitor of apoptosis-promoting Bax1 || Bax inhibitor 1-related
+1091	X966_03845	0	4	801020	801547	Sporulation related domain || Sporulation-related domain
+1259	L283_RS03710	0	4	788045	788434	Ribosomal L25p family || Ribosomal protein L25
+1500	BHO_RS03685	0	4	781689	781877	Borrelia burgdorferi virulent strain associated lipoprotein || Virulent strain associated Borrelia lipoprotein
+1140	X966_00120	0	5	22799	23278	Amino acid kinase family || Aspartate/glutamate/uridylate kinase
+1143	BHW_RS02595	0	6	537425	537907	Prokaryotic membrane lipoprotein lipid attachment site profile.
+1436	I871_03660	0	6	735673	735933	N/A
+692	L283_RS03510	0	6	745041	745871	Toprim domain profile. || Toprim domain
+1223	L283_RS01165	0	7	244818	245132	RecF/RecN/SMC N terminal domain || RecF/RecN/SMC, N-terminal
+240	BHO_RS02070	0	7	442408	443817	ABC-2 family transporter protein
+856	BRE_54	0	8	59754	60449	TrkA-C domain || Regulator of K+ conductance, C-terminal
+1108	BT0562A	0	9	581742	582257	HGPRTase: hypoxanthine phosphoribosyltransferase || Hypoxanthine phosphoribosyl transferase
+1114	BRE_807	0	9	862737	863246	N/A
+179	BHO_RS02575	0	9	532995	534578	Flagella basal body rod protein || Flagellar basal body rod protein, N-terminal
+507	Q7M_418	0	9	428356	429303	rpoB: DNA-directed RNA polymerase, beta subunit || DNA-directed RNA polymerase, beta subunit
+537	BT0843A	0	9	915443	916429	DNA / pantothenate metabolism flavoprotein || DNA/pantothenate metabolism flavoprotein, C-terminal
+965	Q7M_130	0	9	124284	124883	N/A
+1002	Q7M_469	0	10	488972	489556	Borrelia ORF-A || Borrelia plasmid, OrfA
+1097	BDU_418	0	10	452266	452790	KID repeat || KID repeat
+1201	BDU_444	0	10	478001	478432	Putative plasmid partition protein || Plasmid partition protein
+168	X966_04065	0	10	836904	838544	N/A
+213	BT0536A	0	10	550186	551631	Domain of unknown function (DUF1732) || Domain of unknown function DUF1732
+227	BT0826A	0	10	880057	881496	Sigma-70, region 4 || RNA polymerase sigma-70 region 4
+241	X966_02105	0	10	441673	443076	TIGR01033: DNA-binding regulatory protein, YebC/PmpR family || Transcriptional regulator TACO1-like
+254	BHO_RS01150	0	10	241995	243365	Iron/manganese superoxide dismutases, alpha-hairpin domain || Manganese/iron superoxide dismutase, N-terminal
+265	BT0570A	0	10	590099	591463	Adenylate kinase
+269	BHO_RS01920	0	10	405562	406869	CDP-alcohol phosphatidyltransferase || CDP-alcohol phosphatidyltransferase
+306	I871_02215	0	10	439415	440698	cyt_tran_rel: cytidyltransferase-like domain || Cytidyltransferase-like domain
+400	BH0733A	0	10	782924	784036	Tubulin/FtsZ family, GTPase domain || Tubulin/FtsZ, GTPase domain
+401	I871_02840	0	10	554163	555281	Thermophilic metalloprotease (M29) || Peptidase M29, aminopeptidase II
+440	L283_RS02165	0	10	463093	464160	Flagellar assembly protein FliH || Flagellar assembly protein FliH/Type III secretion system HrpE
+505	Q7M_245	0	10	252911	253912	ATP synthase subunit C || V-ATPase proteolipid subunit C-like domain
+666	Q7M_471	0	10	490401	491219	Phosphoenolpyruvate-dependent sugar phosphotransferase system, EIIA 2 || PTS EIIA type-2 domain
+697	BH0406	0	10	419908	420675	N/A
+875	BDU_256	0	10	277268	277954	PTS_EIIB type-1 domain profile. || Phosphotransferase system, IIB component, type 1
+933	Q7M_850	0	10	892711	893340	N/A
+182	I871_01640	0	11	319662	321326	YbbR-like protein || YbbR-like
+450	BDU_399	0	11	428772	429395	Binding-protein-dependent transport system inner membrane component || MetI-like domain
+86	BRE_743	0	11	797416	799470	Flagellar M-ring protein C-terminal || Flagellar M-ring C-terminal
